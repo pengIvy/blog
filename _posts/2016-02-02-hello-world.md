@@ -1,7 +1,7 @@
 ---
 layout: base
-url: .././css/
 title: 你好，世界
+<link href="./css/style.css" rel="stylesheet" type="text/css">
 ---
 <p>我的第一篇文章</p>
 <p>PKC是猪猪猪</p>
