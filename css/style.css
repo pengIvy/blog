@@ -118,6 +118,9 @@ header {
 }
 
 .content {
-	width: 90%;
+	width: 86%;
+	padding: 1em 2%;
 	margin: 15px auto;
+	background: #f99;
+	box-shadow: #555 5px 5px 10px;
 }
