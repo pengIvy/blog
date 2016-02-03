@@ -8,7 +8,10 @@ link: index.css
 	    <h2>最近文章</h2>
 	    <ul>
 	　　{% for post in site.posts %}
-			<li class="article-item">{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			<li class="article-item">{{ post.date | date_to_string }} 
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+				<p>{{ post.excerpt }}</p>
+			</li>
 		{% endfor %}
 		</ul>
 	</div>
