@@ -1,6 +1,6 @@
 body {
 	font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
-	background: url(.././images/background.jpg);
+	background: #544741;
 	color: #333;
 }
 a {
@@ -38,11 +38,12 @@ header {
 }
 .icon {
 	position: absolute;
+	top: 0;
 	margin-left: 2em;
-	line-height: 80px;
-	background: rgb(153, 204, 204);
-	padding: 0 1em;
-	border-radius: 0 0 25% 25%;
+	height: 100px;
+	width: 80px;
+	background: url(.././images/logo.png);
+	background-size: 100% 100%;
 }
 .white {
 	color: #fff;
@@ -117,4 +118,5 @@ header {
 .navbar a {
 	color: #9cc;
 	font-size: 20px;
+	vertical-align: middle;
 }
