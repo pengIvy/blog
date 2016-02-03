@@ -64,3 +64,16 @@ a {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+.sticker-pink {
+	background: url('.././images/text-pink.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.sticker-brown {
+	background: url('.././images/notice-brown.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.sticker-blue {
+	background: url('.././images/notice-brown.png') no-repeat;
+}

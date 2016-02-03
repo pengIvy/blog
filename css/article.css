@@ -1,0 +1,27 @@
+.content {
+	width: 86%;
+	min-height: 600px;
+	padding: 1em 2%;
+	margin: 15px auto 40px auto;
+}
+
+.article {
+	padding: 1em 5em;
+	min-height: 600px;
+}
+
+.article {
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+.article h1 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.article a {
+	margin-left: 1em;
+	color: #058;
+}

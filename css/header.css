@@ -1,5 +1,4 @@
 header {
-	height: 300px;
 	width: 90%;
 	margin: 0 auto;
 	color: #fff;
@@ -22,8 +21,8 @@ header {
 	top: 0;
 	height: 120px;
 	width: 80px;
-	background: url(.././images/logo.png);
-	background-size: 100% 100%;
+	background: url(.././images/logo.png) no-repeat;
+	background-size: auto 100%;
 }
 
 .navbar-item {
