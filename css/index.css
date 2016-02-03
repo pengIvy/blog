@@ -35,3 +35,20 @@
 	margin-top: -30px;
 }
 
+@media screen and (max-width: 1050px) {
+	.last-article {
+		width: 50%;
+	}
+	.right-pane {
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.last-article {
+		width: 80%;
+	}
+	.right-pane {
+		display: none;
+	}
+}
