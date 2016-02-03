@@ -1,12 +1,16 @@
 ---
 layout: base
 title: 我的Blog
-link: style
+link: ./css/index.css
 ---
-
-<p>最新文章</p>
-<ul>
+<div class="last-article notice notice-1 box-shadow">
+    <h2>最近文章</h2>
+    <ul>
 　　{% for post in site.posts %}
-　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　{% endfor %}
-</ul>
+		<li class="article-item">{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
+<div class="right-pane notice notice-2 box-shadow">
+    
+</div>

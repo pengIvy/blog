@@ -1,6 +1,7 @@
 ---
 layout: base
 title: 你好，世界
+link: ./css/article.css
 ---
 <p>我的第一篇文章</p>
 <p>PKC是猪猪猪</p>
