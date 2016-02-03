@@ -1,60 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="qcy">
-    <meta name="keywords" content="产品经理 产品经验"/>
-    <meta name="description" content="一个产品经理的博客，分享自己关于产品的经验。"/>
-    <link href=".././css/reset.css" rel="stylesheet" type="text/css">
-    <link href=".././css/animate.css" rel="stylesheet" type="text/css">
-    <link href=".././css/style.css" rel="stylesheet" type="text/css">
-    <link href=".././css/index.css" rel="stylesheet" type="text/css">
-    <link href=".././css/material-icons.css" rel="stylesheet">
+    {% include metas.html %}
+    {% include links.html %}
     <title>{{ page.title }}</title>
 </head>
 <body>
-    <header class="box-shadow">
-        <section class="fix-top">
-            <div class="icon">
-            </div>
-            <ul class="navbar float-right">
-                <li class="navbar-item btn">
-                    <i class="material-icons">face</i>
-                    <a href="/blog">Home</a>
-                </li>
-                <li class="navbar-item btn">
-                    <a href="/archive/">Archive</a>
-                </li>
-                <li class="navbar-item btn">
-                    <a href="/about/">About</a>
-                </li>
-                
-            </ul>
-        </section>
-        <section class="animated bounce title">
-            <h1>
-                <span class="font-4">PengIvy Is A Girl</span><br/>
-                <span>独立博客</span>
-            </h1>
-        </section>
-
-    </header>
-
-    <section class="content box-shadow">
-        <div class="last-article notice notice-1 box-shadow">
-            <h2>最近文章</h2>
-            <ul>
-                <li class="article-item">02 Feb 2016<a href="/">你好，世界</a></li>
-                <li class="article-item">03 Feb 2016<a href="/">wode世界，一个奇怪的地方</a></li>
-                <li class="article-item">12 Feb 2016<a href="/">wuli嘎嘎</a></li>
-            </ul>
-        </div>
-        <div class="right-pane notice notice-2 box-shadow">
-
-        </div>
-        <!-- {{ content }} -->
-    </section>
-
+    {% include header.html %}
+    {{ content }}
 </body>
 </html>
 
