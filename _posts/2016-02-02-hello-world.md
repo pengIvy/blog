@@ -2,13 +2,10 @@
 layout: article-base
 title: 你好，世界
 link: article.css
+excerpt_separator: <!--more-->
 ---
-# {{ page.title }}
-<p class="excerpt">
-<!--excerpt-->
 我的第一篇文章
-<!--excerpt-->
-</p>
+<!--more-->
 PKC是猪猪猪
 
 {{ page.date | date_to_string }}

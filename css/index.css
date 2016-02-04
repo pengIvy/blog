@@ -28,9 +28,10 @@
 	color: #058;
 }
 
-.excerpt {
-	font-size: 0.89em;
+.post_item *:not(a) {
+	font-size: 0.9em;
 }
+
 
 @media screen and (max-width: 1050px) {
 	.last-article {
