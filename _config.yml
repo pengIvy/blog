@@ -1,6 +1,9 @@
 baseurl: /blog
+
+paginate: 5
+paginate_path: "page:num"
+
 comments :
    provider : duoshuo
    duoshuo : 
    shortname : pengIvy
-
