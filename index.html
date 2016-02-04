@@ -7,9 +7,11 @@ link: index.css
 	<div class="last-article text-blue">
 	    <h2>最近文章</h2>
 	    <ul>
+
 		    {% for post in site.posts  %}
 		        {% include post_item.html  %}
 	        {% endfor  %}
+
 		</ul>
 	</div>
 	<div class="right-pane notice-brown">
