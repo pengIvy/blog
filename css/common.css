@@ -15,6 +15,10 @@ a {
 	color: #fff;
 }
 
+.middle {
+	vertical-align: middle;
+}
+
 .btn:before, .btn:after {
 	content: '';
 	display: block;
@@ -64,16 +68,55 @@ a {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.sticker-pink {
+.btn-item {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	color: #9cc;
+}
+
+.btn-item a {
+	color: #9cc;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.right-pane {
+	width: 260px;
+	min-height: 400px;
+	display: inline-block;
+	margin: -30px 0 0 15px;
+}
+
+.text-pink {
 	background: url('.././images/text-pink.png') no-repeat;
 	background-size: 100% 100%;
 }
 
-.sticker-brown {
+.text-blue {
+	background: url('.././images/text-blue.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.notice-brown {
 	background: url('.././images/notice-brown.png') no-repeat;
 	background-size: 100% 100%;
 }
 
-.sticker-blue {
+.notice-blue {
 	background: url('.././images/notice-brown.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.notice-orange {
+	background: url('.././images/notice-orange.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+#ds-thread {
+    width: 86%;
+    margin: 0 auto;
+    padding: 2% 2% 5.5em 2%;
+    background: url('.././images/item-blue.png') no-repeat;
+	background-size: 100% 100%;
 }

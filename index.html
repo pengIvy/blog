@@ -4,18 +4,23 @@ title: 我的Blog
 link: index.css
 ---
 <section class="content">
-	<div class="last-article sticker-pink">
+	<div class="last-article text-blue">
 	    <h2>最近文章</h2>
 	    <ul>
-	　　{% for post in site.posts %}
-			<li class="article-item">{{ post.date | date_to_string }} 
-				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-				<p>{{ post.excerpt }}</p>
-			</li>
-		{% endfor %}
+	　　{% if site.paginate  %}
+	        {% for post in paginator.posts  %}
+		        {% include post_item.html  %}
+		    {% endfor  %}
+		        {% assign pager_url = site.url  %}
+		        {% include pagination.html  %}
+		 {% else  %}
+		    {% for post in site.posts  %}
+		        {% include post_item.html  %}
+	        {% endfor  %}
+        {% endif  %}
 		</ul>
 	</div>
-	<div class="right-pane sticker-brown">
+	<div class="right-pane notice-brown">
 	    
 	</div>
 </section>

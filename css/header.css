@@ -7,13 +7,6 @@ header {
 .navbar {
     line-height: 60px;
 	text-align: right;
-	color: #9cc;
-}
-
-.navbar a {
-	color: #9cc;
-	font-size: 20px;
-	vertical-align: middle;
 }
 
 .logo {
@@ -26,9 +19,6 @@ header {
 }
 
 .navbar-item {
-	position: relative;
-	cursor: pointer;
-	display: inline-block;
 	margin-right: 2em;
 }
 
@@ -45,5 +35,5 @@ header {
 }
 
 .title h1 span {
-	text-shadow: #ccc 0px 0px 10px;
+	text-shadow: #ccc 0px 0px 3px;
 }

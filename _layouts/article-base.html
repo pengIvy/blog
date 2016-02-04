@@ -8,9 +8,29 @@
 <body>
     {% include header.html %}
     <section class="content">
-		<div class="article sticker-pink">
+		<div class="article text-blue">
+			<div class="right-pane notice-orange">
+    		
+    		</div>
 	    	{{ content }}
+	    	<p class="data-time">
+	    		<i class="material-icons">view_comfy</i>
+	    		<span class="middle">{{ page.date | date_to_string }}</span>
+	    	</p>
     	</div>
-</section>
+    	<div class="btn-group">
+			<div class="prev-btn btn-item btn">
+				<i class="material-icons">arrow_back</i>
+				<a href="{{ page.prev }}">prev</a>
+			</div>
+			<div class="next-btn btn-item btn">
+				<a href="{{ page.next }}">next</a>
+				<i class="material-icons">arrow_forward</i>
+			</div>
+    	</div>
+	</section>
+
+	{% include duoshuo.html %}
+
 </body>
 </html>

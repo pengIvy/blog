@@ -1,1 +1,6 @@
 baseurl: /blog
+comments :
+   provider : duoshuo
+   duoshuo : 
+   shortname : pengIvy
+

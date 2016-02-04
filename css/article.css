@@ -6,7 +6,7 @@
 }
 
 .article {
-	padding: 1em 5em;
+	padding: 1em 2em 5em 5em;
 	min-height: 600px;
 }
 
@@ -18,10 +18,24 @@
 .article h1 {
 	font-size: 20px;
 	font-weight: bold;
-	margin: 10px 0;
+	margin: 1em 0;
 }
 
-.article a {
-	margin-left: 1em;
-	color: #058;
+.right-pane {
+	float: right;
+	margin-top: -50px;
+}
+
+.data-time {
+	margin: 1em 2em 0 0;
+	font-weight: bold;
+	text-align: right;
+}
+
+.btn-group {
+	margin: 1em;
+}
+
+.next-btn {
+	float: right;
 }
