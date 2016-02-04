@@ -1,5 +1,5 @@
 <li class="post_item">{{ post.date | date_to_string }} 
 	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	
-	<p class="excerpt">{{ post.content | extract_excerpt  }}</p>
+	<p class="excerpt">{{ post.excerpt | extract_excerpt  }}</p>
 </li>
