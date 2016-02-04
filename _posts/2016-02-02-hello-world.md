@@ -8,5 +8,3 @@ excerpt_separator: <!--more-->
 我的第一篇文章
 <!--more-->
 PKC是猪猪猪
-
-{{ page.date | date_to_string }}
